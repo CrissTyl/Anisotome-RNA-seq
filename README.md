@@ -3,4 +3,7 @@ Contains a bioinformatics pipeline that was used to take raw RNA-seq reads from 
 
 Scripts are named by the program they use and by their tissue sample type. Forward and reverse reads cleaned by trimmomatic are then concatenated into master forward and reverse read files and put into both Trinity and SPAdes. The resulting transcriptome from both programs is then concatenated into a master query sequence used on all downstream analysis.
 
-![](CrissTyl/Anisotome-RNA-seq/AnisoscriptPipeline.drawio.png)
+<img src="AnisoscriptPipeline.drawio.png" style="text-align: center;">
+
+
+
